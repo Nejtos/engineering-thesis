@@ -1,0 +1,28 @@
+.settings-panel-main-box{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    height: 84vh;
+    gap: 20px;
+}
+
+.btns-section-filter{
+    display: flex;
+    height: 10%;
+    gap: 50px;
+}
+
+.settings-panel-main-content{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    margin: 0 20px 0px 10px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.settings-panel-content-section{
+    display: flex;
+    width: 98%;
+    flex-direction: column;
+}

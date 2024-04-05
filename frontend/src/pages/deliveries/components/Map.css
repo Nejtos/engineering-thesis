@@ -1,0 +1,7 @@
+.map-box{
+    display: flex;
+    width: 100%;
+    /* width: 98%; */
+    background-color: lightgray;
+    border-radius: 12px;
+}

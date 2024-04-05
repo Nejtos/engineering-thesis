@@ -1,0 +1,50 @@
+.top-day-sellings-slider {
+    /* display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 16px; */
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.top-sellings-item-container{
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+}
+
+.top-sellings-item-content-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap: 4px;
+    justify-content: center;
+}
+
+.top-sellings-item-pic{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%;
+    height: 70%; */
+}
+
+/* .top-sellings-item-name{
+    display: flex;
+    width: 86%;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+
+.top-sellings-item-quantity-box{
+    padding-left: 10px;
+} */

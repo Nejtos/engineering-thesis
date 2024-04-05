@@ -1,0 +1,15 @@
+
+.orders-list-box{
+    width: 98%;
+    height: 71.6vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.orders-list-box-headline{
+    display: flex;
+    width: 99.4%;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 6px;
+}

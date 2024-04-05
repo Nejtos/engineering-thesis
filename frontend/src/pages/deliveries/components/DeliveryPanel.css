@@ -1,0 +1,19 @@
+.delivery-panel-box{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    height: 84vh;
+    gap: 10px;
+    /* align-items: center; */
+}
+
+.delivery-page-main-content-grid{
+    display: grid;
+    height: 96.5%;
+    grid-template-columns: 100%;
+    grid-template-rows: 35% 65%;
+    gap: 10px;
+}
+
+.driver-box-main-container { grid-area: 1 / 1 / 2 / 2; }
+.map-box { grid-area: 2 / 1 / 3 / 2; }

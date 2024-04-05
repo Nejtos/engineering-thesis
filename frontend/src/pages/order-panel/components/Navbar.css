@@ -1,0 +1,130 @@
+.navbar {
+    -webkit-box-shadow: 0px 4px 5px -5px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0px 4px 5px -5px rgba(0, 0, 0, 0.23);
+    box-shadow: 0px 4px 5px -5px rgba(0, 0, 0, 0.23);
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.nav-container{
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-img {
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-container-links{
+    text-decoration: none;
+}
+
+.cart-img {
+    cursor: pointer;
+}
+
+.cart-items-counter {
+    display: flex;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background-color: #b6002c;
+    color: white;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: -2.25rem;
+    margin-top: -0.5rem;
+}
+
+.btn-close-mobile-nav {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/close-cart.png");
+    cursor: pointer;
+}
+
+.hamburger-menu {
+    display: none;
+    gap: 1rem;
+}
+
+.mobile-nav {
+    background-color: #F3F3F3;
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mobile-links {
+    font-size: 3rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    top: 44%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.cart-items-counter-mobile-nav {
+    display: flex;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background-color: #b6002c;
+    color: white;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: -1.25rem;
+    margin-top: -0.5rem;
+}
+
+.open-flex {
+    display: flex !important;
+}
+
+.closed-flex {
+    display: none !important;
+}
+
+@media only screen and (min-width : 476px) {
+    .open-flex {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width : 475px) {
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+}

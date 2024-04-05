@@ -1,0 +1,86 @@
+.order-finalisation-container {
+  position: fixed;
+  top: 0;
+  left: -200%;
+  width: 600px;
+  height: 90vh;
+  padding: 1.5rem 1rem 1rem 1rem;
+  background-color: white;
+  box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+  z-index: 999;
+}
+
+.order-finalisation-container.active {
+  /* left: 0; */
+  left: 70%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  overflow-y: scroll;
+}
+
+.order-finalisation-container-header {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.order-finalisation-inner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.order-finalisation-product-title {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.order-finalisation-product-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-finalisation-quantity-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.order-finalisation-quantity-counter {
+  display: flex;
+  align-items: center;
+}
+
+.order-finalisation-quantity-extra-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.order-finalisation-box-details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+}
+
+.order-finalisation-text-field-container{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.order-finalisation-order-processing-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-finalisation-payment-method-container {
+  margin-top: 40px;
+}

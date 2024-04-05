@@ -1,0 +1,21 @@
+.app-title {
+    display: flex;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    font-style: italic;
+    font-family: Candara, serif;
+    color: black;
+    font-size: 40px;
+}
+
+/* .app-title {
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-style: italic;
+    font-family: Candara, serif;
+    color: black;
+    font-size: 40px;
+} */

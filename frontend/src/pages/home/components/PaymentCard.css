@@ -1,0 +1,50 @@
+.ext-border-card{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20rem;
+    height: 12rem;
+    border: 1px solid black;
+    border-radius: 12px;
+    background: rgb(142,34,217);
+    background: linear-gradient(75deg, rgba(142,34,217,1) 18%, rgba(202,167,226,1) 46%, rgba(168,119,200,1) 56%, rgba(118,50,163,1) 95%);
+}
+
+.interior-card{
+    display: block;
+}
+
+.card-name{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 12%;
+    color: silver;
+}
+
+.money-amount{
+    font-size: 21px;
+}
+
+.card-number{
+    font-size: 16px;
+}
+
+.expired-date{
+    font-size: 14px;
+}
+
+.card-owner{
+    font-size: 16px;
+}
+

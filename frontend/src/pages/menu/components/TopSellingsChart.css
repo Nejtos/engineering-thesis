@@ -1,0 +1,15 @@
+.top-sellings-chart-container{
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.top-sellings-chart-main{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 90%;
+}

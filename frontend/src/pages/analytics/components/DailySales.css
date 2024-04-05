@@ -1,0 +1,29 @@
+.daily-sales-main-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+}
+
+.daily-sales-left-box-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.daily-sales-right-box-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40%;
+}
+
+.daily-sales-box-title{
+    display: flex;
+    height: 10%;
+    font-size: 20px;
+    align-items: center;
+}

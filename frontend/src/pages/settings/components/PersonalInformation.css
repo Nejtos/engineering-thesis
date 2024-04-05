@@ -1,0 +1,60 @@
+.personal-info-main-user-box{
+    display: flex;
+    flex-direction: column;
+    height: 74vh;
+    gap: 20px;
+}
+
+.personal-info-top-main-user-box{
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+
+.personal-info-left-top-main-user-box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.personal-info-user-image-box{
+    display: flex;
+    height: 70%;
+    width: 100%;
+    justify-content: center;
+}
+
+.personal-info-user-box-main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.personal-info-bottom-main-user-box{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    margin-left: 2rem;
+    gap: 16px;
+    justify-content: space-evenly;
+}
+
+.personal-info-user-box-main-content-details{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 10px;
+}
+
+.personal-info-user-box-main-content-details-1row{
+    display: flex;
+    column-gap: 6px;
+}
+
+.personal-info-user-box-main-content-details-2row{
+    display: flex;
+    column-gap: 6px;
+}

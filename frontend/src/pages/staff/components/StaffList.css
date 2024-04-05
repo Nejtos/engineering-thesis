@@ -1,0 +1,15 @@
+.orders-list-box-headers {
+    min-width: 15%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.customer-name{
+    min-width: 15%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}

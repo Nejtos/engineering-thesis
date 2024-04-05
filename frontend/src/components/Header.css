@@ -1,0 +1,20 @@
+.top-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+    width: 98%;
+    padding-top: 3vh;
+}
+
+.top-box-left {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.top-box-right {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 10px;
+}

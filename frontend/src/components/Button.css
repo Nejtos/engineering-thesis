@@ -1,0 +1,36 @@
+.btn{
+    width: 80px;
+    height: 40px;
+    background-color: transparent;
+    border: 0.5px solid black;
+    border-radius: 16px;
+}
+
+#ordered{
+    width: 240px;
+    height: 80px;
+    border: 1px solid purple;
+}
+
+#waiting{
+    width: 240px;
+    height: 80px;
+    border: 1px solid green;
+}
+
+#delivered{
+    width: 240px;
+    height: 80px;
+    border: 1px solid orange;
+}
+
+#canceled{
+    width: 240px;
+    height: 80px;
+    border: 1px solid red;
+}
+
+#addToCart{
+    min-width: 200px;
+    cursor: pointer;
+}

@@ -1,0 +1,190 @@
+.ButtonExterior {
+  text-align: center;
+  border-radius: 12px;
+}
+
+/* .ButtonExterior :hover{
+    opacity: 0.8;
+} */
+
+.Button {
+  border: transparent;
+  cursor: pointer;
+}
+
+.ButtonInterior {
+  text-align: center;
+}
+
+button[type="logo-img"] {
+  width: 64px;
+  height: 64px;
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+button[type="Categories"] {
+  background-color: transparent;
+  font-family: "Blinker", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+
+button[type="Products"] {
+  background-color: transparent;
+  font-family: "Blinker", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+
+button[type="left-arrow-img"] {
+  width: 2rem;
+  height: 2rem;
+  background-image: url("../img/left-arrow.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+button[type="right-arrow-img"] {
+  width: 2rem;
+  height: 2rem;
+  background-image: url("../img/right-arrow.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+button[type="back-icon-img"] {
+  width: 2rem;
+  height: 2rem;
+  background-image: url("../img/back-icon.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+button[type="All"],
+button[type="Pizzas"],
+button[type="Ramens"],
+button[type="Burgers"],
+button[type="Wraps"],
+button[type="Salads"],
+button[type="Pastas"],
+button[type="Desserts"],
+button[type="hot drinks"],
+button[type="cold drinks"] {
+  height: 2rem;
+  width: 7rem;
+  border: 0.01rem solid lightgray;
+  background-color: transparent;
+  color: rgb(88, 88, 88);
+  font-weight: bold;
+  border-radius: 12px;
+}
+
+button[type="all-active"] {
+  height: 2rem;
+  width: 7rem;
+  outline: 2px solid rgba(0, 0, 0, 0.6);
+  background-color: transparent;
+  color: rgb(88, 88, 88);
+  font-weight: bold;
+}
+
+button[type="-"] {
+  height: 100%;
+  width: 2.5rem;
+  border: 0.01rem solid black;
+  background: white;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button[type="+"] {
+  height: 100%;
+  width: 3rem;
+  border: 0.01rem solid black;
+  background: white;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button[type="Add to cart"] {
+  height: 3rem;
+  width: 12rem;
+  border: 0.01rem solid #b81818;
+  background: white;
+  color: black;
+  font-weight: bold;
+}
+
+.ButtonExterior[type="Add to cart"] :hover {
+  background: #b81818;
+  color: white;
+}
+
+button[type="BUY NOW"] {
+  height: 3rem;
+  width: 12rem;
+  border: 0.01rem solid black;
+  background: #b81818;
+  color: white;
+  font-weight: bold;
+}
+
+.ButtonExterior[type="BUY NOW"] :hover {
+  background: white;
+  color: #b81818;
+}
+
+button[type="SHOP NOW"] {
+  height: 2rem;
+  width: 6rem;
+  font-size: 12px;
+  background: black;
+  color: white;
+  font-family: "Blinker", sans-serif;
+}
+
+button[type="∨"] {
+  height: 1.5rem;
+  width: 2rem;
+  font-size: 12px;
+  background: black;
+  color: white;
+  font-family: "Blinker", sans-serif;
+}
+
+button[type="∧"] {
+  height: 1.5rem;
+  width: 2rem;
+  font-size: 12px;
+  background: black;
+  color: white;
+  font-family: "Blinker", sans-serif;
+}
+
+button[type="Checkout"] {
+  height: 2.5rem;
+  width: 10rem;
+  outline: 1px solid rgba(0, 0, 0, 0.25);
+  color: black;
+  background-color: white;
+  font-weight: bold;
+}
+
+.ButtonExterior[type="Checkout"] :hover {
+  color: white;
+  background-color: black;
+}
+
+button[type="menu-icon-img"] {
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/menu-icon.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
